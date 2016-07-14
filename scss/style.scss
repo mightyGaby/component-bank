@@ -1,0 +1,16 @@
+@import "mixins";
+@import "variables";
+
+html, body { }
+
+body { }
+
+.container { 
+	padding-top: $container-padding; 
+	padding-bottom: $container-padding; 
+
+	 @media only screen and ($break-sm) {
+        padding-top: ($container-padding) * 2;
+        padding-bottom: ($container-padding) * 2; 
+    }
+}
