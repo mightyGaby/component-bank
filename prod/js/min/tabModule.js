@@ -1,0 +1,1 @@
+!function(t){var n=window.js||(window.js={});n.tabModule=function(n,i){this.root=t(n),this.init()},n.tabModule.prototype={init:function(){this.setup(),this.events()},setup:function(){},events:function(){}}}(jQuery);
