@@ -1,9 +1,6 @@
 doctype html
 html
-	head
-		title Component Bank
-		link(href='css/libs/bootstrap.min.css', rel='stylesheet')
-		link(href='css/min/style.min.css', rel='stylesheet')
+	include includes/head.jade
 	body
 		section.header
 		section.container.tab-module
@@ -11,7 +8,5 @@ html
 				.col-xs-12
 					h1 title
 		section.footer
-		script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
-		script(src="js/min/app.js")
-		script(src="js/min/tabModule.js")
+	include includes/scripts.jade
 	
