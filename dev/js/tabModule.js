@@ -38,8 +38,8 @@
 		},
 
 		onsuccess_ajax: function(response, textStatus, jqXHR) {
-			console.log(response.data.weather);
-			$(".data").html(response.data);
+			//console.log(response.data.weather[0].maxtempF);
+			$(".data").html(response.data.weather[0].maxtempF);
 		}
 	};
 })(jQuery);

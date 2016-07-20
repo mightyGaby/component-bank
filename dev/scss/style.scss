@@ -5,11 +5,18 @@ html, body { }
 
 body { }
 
+h1 { margin-top: 0; margin-bottom: 10px; }
+
 .container { 
+	border-radius: 6px;
+	margin-top: $container-padding;
+	margin-bottom: $container-padding;
 	padding-top: $container-padding; 
 	padding-bottom: $container-padding; 
 
 	 @media only screen and ($break-sm) {
+	 	margin-top: $container-padding * 3;
+		margin-bottom: $container-padding * 3;
         padding-top: ($container-padding) * 2;
         padding-bottom: ($container-padding) * 2; 
     }
