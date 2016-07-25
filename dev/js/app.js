@@ -10,7 +10,7 @@
         initComponents: function(){
             // tab module
             $(".waves-module").each(function(i, el){
-                //new js.wavesModule(el);
+                new js.wavesModule(el);
             });
         }
     };
