@@ -1,0 +1,1 @@
+!function(i){var t=window.js||(window.js={});t.tabModule=function(t,n){this.root=i(t),this.init()},t.tabModule.prototype={init:function(){this.setup(),this.events()},setup:function(){i(".slider").slick({infinte:!0,arrows:!0,slidesToShow:1,slidesToScroll:1})},events:function(){}}}(jQuery);

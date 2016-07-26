@@ -2,11 +2,19 @@ doctype html
 html
 	include includes/head.jade
 	body
+		include includes/modules/navbar.jade
+		section.navbar.navbar-default.navbar-fixed-top
+		  .container
+		    span Projects
+		    span Speaking
+		    span About
+		    span Contact
 		section.header
-		section.container.tab-module
-			.row
-				.col-xs-12
-					h1 title
+			.container
+				.row
+					.col-xs-12
+						h1 Gaby's Magical Site
+		include includes/modules/slider.jade
 		section.footer
 	include includes/scripts.jade
 	
