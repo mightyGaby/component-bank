@@ -9,6 +9,12 @@ var sass = require('gulp-sass'),
     pump = require('pump'),
     jade = require('gulp-jade');
 
+
+gulp.task('copyfiles', function() {
+    gulp.src('dev/img/**/*.{png,jpg,jpeg,svg}')
+    .pipe(gulp.dest('prod/img'));
+});
+
 // Compile Sass
 gulp.task('sass', function() {
     return gulp.src(['dev/scss/**/*.scss', 'dev/scss/*.scss', '!dev/scss/variables.scss', '!dev/scss/mixins.scss'])
@@ -53,4 +59,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('dev', ['sass']);
+gulp.task('dev', ['copyfiles','sass']);
