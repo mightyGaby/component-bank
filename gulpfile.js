@@ -56,7 +56,8 @@ gulp.task('watch', function() {
     gulp.watch('dev/css/*.css', ['minify-css']);
     gulp.watch('dev/js/*.js', ['compress']);
     gulp.watch(['dev/templates/*.jade', 'dev/templates/**/*.jade'], ['jade']);
+    gulp.watch('dev/img/**/*.{png,jpg,jpeg,svg}', ['copyfiles']);
 });
 
 // Default Task
-gulp.task('dev', ['copyfiles','sass']);
+gulp.task('dev', ['sass']);
