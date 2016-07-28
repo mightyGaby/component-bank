@@ -1,0 +1,11 @@
+mixin slide(category, className)
+	div(class="#{className.toLowerCase()}")
+		h3= category
+
+mixin project-overview(category)
+	.panel.panel-default.col-md-4
+		.panel-body
+			p= category
+
+mixin project-link(category,className)
+	h2(class="#{className.toLowerCase()}")= category
