@@ -3,14 +3,17 @@
 
 html, body { }
 
-body { }
+body { 
+	padding-top: 70px;
+}
 
-.container { 
+.container {
 	padding-top: $container-padding; 
 	padding-bottom: $container-padding; 
 
-	 @media only screen and ($break-sm) {
-        padding-top: ($container-padding) * 2;
-        padding-bottom: ($container-padding) * 2; 
-    }
+	@media only screen and ($break-sm) {
+		padding-top: ($container-padding) * 2;
+		padding-bottom: ($container-padding) * 2; 
+	}
 }
+

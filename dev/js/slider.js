@@ -1,13 +1,13 @@
 (function($){
 	var js = window.js || (window.js = {});
 
-	js.tabModule = function(root, params){
+	js.slider = function(root, params){
 		this.root = $(root);
 
 		this.init();
 	};
 
-	js.tabModule.prototype = {
+	js.slider.prototype = {
 		init: function(){
 			//object variables
 				
@@ -21,8 +21,9 @@
 		setup: function() {
 			$('.slider').slick({
 				infinte: true,
-				slidesToShow: 1,
-				slidesToScroll: 1
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				draggable: true
 			});
 		},
 

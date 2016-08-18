@@ -1,8 +1,16 @@
 @import "../mixins";
 @import "../variables";
 
+$slider-list: operations design speaking development manufacturing change-management product-management curriculum-design;
+
 .slider {
   div{
-    border: 1px solid red;
+    background-image: url('../../img/idea_factory.svg');
+    background-repeat: no-repeat;
+    height: 80px;
+  }
+  h3{
+    padding-top: 100px;
   }
 }
+

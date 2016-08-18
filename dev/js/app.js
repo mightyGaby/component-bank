@@ -9,8 +9,8 @@
         
         initComponents: function(){
             // tab module
-            $(".tab-module").each(function(i, el){
-                new js.tabModule(el);
+            $(".slider").each(function(i, el){
+                new js.slider(el);
             });
         }
     };
