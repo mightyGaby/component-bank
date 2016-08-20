@@ -12,8 +12,7 @@ mixin project-link(category,className)
 
 mixin publicity(title, date, type, url, source)
 	div.publicity
-		p: a(href="#{url}" target="_blank") #{title}
-		p.type= type
-		p.date= date
+		small= type
+		h4: a(href="#{url}" target="_blank") #{title}
 		p.source= source
-
+		p.date= date

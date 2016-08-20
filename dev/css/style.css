@@ -1,6 +1,3 @@
-.publicity {
-  color: pink; }
-
 body {
   padding-top: 70px; }
 
@@ -14,3 +11,13 @@ body {
 
 section {
   border: 2px solid lightblue; }
+
+/* partials */
+.publicity {
+  margin-bottom: 20px; }
+  .publicity a {
+    color: black; }
+  .publicity small {
+    color: slategrey; }
+  .publicity h4 {
+    margin-top: 5px; }

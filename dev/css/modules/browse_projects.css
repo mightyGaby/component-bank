@@ -1,2 +1,8 @@
 .publicity {
-  color: pink; }
+  margin-bottom: 20px; }
+  .publicity a {
+    color: black; }
+  .publicity small {
+    color: slategrey; }
+  .publicity h4 {
+    margin-top: 5px; }

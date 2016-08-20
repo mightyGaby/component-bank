@@ -1,3 +1,6 @@
+@import "mixins";
+@import "variables";
+
 html, body { }
 
 body {
@@ -20,6 +23,4 @@ section{
 
 
 /* partials */
-@import "mixins";
-@import "variables";
 @import "modules/browse_projects.scss";

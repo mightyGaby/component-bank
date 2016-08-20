@@ -2,5 +2,14 @@
 @import "../variables";
 
 .publicity{
-	color: pink;
+	margin-bottom: 20px;
+	a{
+		color: $primary;
+	}
+	small{
+		color: $accent-light;
+	}
+	h4{
+		margin-top: 5px;
+	}
 }
