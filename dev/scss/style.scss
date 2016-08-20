@@ -1,19 +1,25 @@
-@import "mixins";
-@import "variables";
-
 html, body { }
 
-body { 
+body {
 	padding-top: 70px;
 }
 
 .container {
-	padding-top: $container-padding; 
-	padding-bottom: $container-padding; 
+	padding-top: $container-padding;
+	padding-bottom: $container-padding;
 
 	@media only screen and ($break-sm) {
 		padding-top: ($container-padding) * 2;
-		padding-bottom: ($container-padding) * 2; 
+		padding-bottom: ($container-padding) * 2;
 	}
 }
 
+section{
+  border: 2px solid lightblue;
+}
+
+
+/* partials */
+@import "mixins";
+@import "variables";
+@import "modules/browse_projects.scss";

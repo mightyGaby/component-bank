@@ -9,3 +9,11 @@ mixin project-overview(category)
 
 mixin project-link(category,className)
 	h2(class="#{className.toLowerCase()}")= category
+
+mixin publicity(title, date, type, url, source)
+	div.publicity
+		p: a(href="#{url}" target="_blank") #{title}
+		p.type= type
+		p.date= date
+		p.source= source
+
