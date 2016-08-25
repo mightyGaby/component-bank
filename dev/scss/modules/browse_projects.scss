@@ -1,6 +1,30 @@
 @import "../mixins";
 @import "../variables";
 
+.projectContainer{
+	[aria-hidden="true"]{
+		color: grey;
+	}
+	[aria-hidden="false"]{
+		color: red;
+	}
+	.project-list{
+		&[aria-hidden="true"]{
+			display: none;
+		}
+	}
+	div{
+
+	}
+}
+
+.category_links{
+	a{
+		font-size: 30px;
+		display: block;
+	}
+}
+
 .publicity{
 	margin-bottom: 20px;
 	a{

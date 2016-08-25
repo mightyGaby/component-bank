@@ -2,10 +2,25 @@ include ../mixins.jade
 
 //- mixin publicity(title, date, type, url, source)
 
-section.col-xs-12.col-sm-12.col-md-6
-	h2 Publicity
-	+publicity('The New Look of Leadership', 'Spring, 2016', 'Feature', 'http://www.thelimited.com/features/top-looks/leaders', 'The Limited #LeadingLooksLike Campaign')
-	+publicity("Two Female Makers on a Mission to Change the World", "Winter, 2016","Interview", "https://generalassemb.ly/blog/meet-lady-mafia-two-female-makers-on-a-mission-to-change-the-world/#more-980201072","General Assembly")
-	+publicity('Building A Community Of Young Professionals','Spring, 2014','Feature','http://www.itw.com/wp-content/uploads/2016/04/ITW_2014_CSR_Report-FINAL-PDF-1.pdf#page=31', 'ITW Corporate Social Responsibility Report')
-	h2 Speaking
-	+publicity('Code/Switch','Spring, 2016', 'Panelist')
+section.col-xs-12.col-sm-12.col-md-6.projectContainer
+	+project-tile("publicity social-impact", "The Limited")
+	+project-tile("publicity curriculum-design social-impact", "Engineers Can be Fashionable")
+	+project-tile("publicity", "GA")
+	+project-tile("design", "Welding")
+	+project-tile("publicity organizational-change social-impact", "YPN")
+	+project-tile("design", "Backpack holder")
+	+project-tile("design curriculum-design social-impact", "JCD")
+	+project-tile("design strategy", "Welding")
+	+project-title("design strategy", "Pepsi")
+	+project-title("strategy", "Refresh")
+	+project-title("design strategy operations", "Rotary")
+	+project-tile("dev social-impact", "Lady Mafia")
+	+project-tile("dev social-impact", "Kindlies")
+	+project-tile("operations organizational-change", "Continuous Improvement")
+	+project-tile("dev", "VCBruce.com")
+	+project-tile("dev social-impact", "Proud2Share")
+	+project-tile("dev", "VCBruce.com")
+
+	include ../projects/publicity.jade
+
+

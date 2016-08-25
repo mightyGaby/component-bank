@@ -1,3 +1,16 @@
+.projectContainer [aria-hidden="true"] {
+  color: grey; }
+
+.projectContainer [aria-hidden="false"] {
+  color: red; }
+
+.projectContainer .project-list[aria-hidden="true"] {
+  display: none; }
+
+.category_links a {
+  font-size: 30px;
+  display: block; }
+
 .publicity {
   margin-bottom: 20px; }
   .publicity a {
